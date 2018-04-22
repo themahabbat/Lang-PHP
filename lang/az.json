@@ -1,0 +1,14 @@
+{
+  "lang": "Azerbaijani",
+
+  "nested": [
+    {
+      "first": "Birinci dəyər",
+      "second": [
+        {
+          "first": "İkinci elementin birinci dəyəri"
+        }
+      ]
+    }
+  ]
+}

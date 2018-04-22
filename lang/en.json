@@ -1,0 +1,15 @@
+{
+  "lang": "English",
+
+  "nested": [
+    {
+      "first": "First value",
+
+      "second": [
+        {
+          "first": "First value of second item"
+        }
+      ]
+    }
+  ]
+}
