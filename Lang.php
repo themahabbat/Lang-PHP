@@ -1,5 +1,7 @@
 <?php
 
+namespace Mahabbat;
+
 class Lang {
 
    public function __construct($lang, $dir, $cookie, $cookieExpire)
