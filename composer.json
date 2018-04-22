@@ -1,0 +1,24 @@
+{
+    "name": "themahabbat/lang",
+    "type": "library",
+    "description": "Language changer",
+    "keywords": ["language","changer"],
+    "homepage": "https://github.com/themahabbat/Lang-PHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mahabbat Mammad",
+            "email": "mahabbatmammad@gmail.com",
+            "homepage": "http://mahabbat.eu.org",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lang": ""
+        }
+    }
+}
