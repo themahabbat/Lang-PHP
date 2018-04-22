@@ -2,6 +2,10 @@
 Language changer for PHP
 
 ## Initialization
+Add `"minimum-stability": "dev"` to `composer.json`
+
+Run `composer require themahabbat/lang`
+
 ### Parameters
 `current`: Current language
 
@@ -21,9 +25,11 @@ Script finds `.json` files in given language directory then initializes it
 ### Code
 ```php
 <?php
-require_once 'Lang.php';
+require_once 'vendor/autoload.php';
 
-$L = Lang([
+use Mahabbat\Lang;
+
+$L = Lang::init([
 
   'current' =>      $_GET['lang'],
   'available' =>    ['az', 'en'],
